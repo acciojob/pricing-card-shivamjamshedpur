@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 45px 46px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+button{
+	background:red;
+	color:white;
+	border-radius:5px;
+	text-decoration: none;
+	border-color:red;
+	height:40px;
+	width:100px;
+	font-size:20px;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 1.25rem;
+  color: #e74c3c; /* Red color for price */
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+}
